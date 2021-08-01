@@ -1,0 +1,23 @@
+$TTL	3600
+s.z.dn42.       IN      SOA ns1.z.dn42. admin.z.dn42. (
+	        2021080101  ; Serial
+		   3600     ; Refresh
+		     30     ; Retry
+		2419200     ; Expire
+		   3600 )   ; minimum
+
+; name servers - NS records
+@	IN      NS      ns1.z.dn42.
+@	IN      NS      ns2.z.dn42.
+
+lo.azimuth	IN	AAAA	fd55:a814:708c::1
+azimuth	IN	AAAA	fd55:a814:708c:1::1
+nadir	IN	AAAA	fd55:a814:708c:2::1
+zenith	IN	AAAA	fd55:a814:708c:3::1
+even	IN	AAAA	fd55:a814:708c:5::1
+centauri	IN	AAAA	fd55:a814:708c:9::1
+altair	IN	AAAA	fd55:a814:708c:a::1
+sanity	IN	AAAA	fd55:a814:708c:10::1
+sun	IN	AAAA	fd55:a814:708c:11::1
+capella	IN	AAAA	fd55:a814:708c:12::1
+deneb	IN	AAAA	fd55:a814:708c:14::1

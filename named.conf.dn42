@@ -3,6 +3,11 @@ zone "z.dn42" {
     file "/etc/named/zones/db.z.dn42";
 };
 
+zone "s.z.dn42" {
+    type master;
+    file "/etc/named/zones/db.s.z.dn42";
+};
+
 zone "224/27.113.21.172.in-addr.arpa" {
     type master;
     file "/etc/named/zones/db.224-27.113.21.172.in-addr.arpa";
