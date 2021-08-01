@@ -10,6 +10,11 @@
         masters = [ "fd55:a814:708c::1" ];
         file = "/var/dns/db.z.dn42";
       };
+      "s.z.dn42" = {
+        master = false;
+        masters = [ "fd55:a814:708c::1" ];
+        file = "/var/dns/db.s.z.dn42";
+      };
       "224/27.113.21.172.in-addr.arpa" = {
         master = false;
         masters = [ "fd55:a814:708c::1" ];
