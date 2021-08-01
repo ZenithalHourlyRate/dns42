@@ -1,0 +1,15 @@
+$TTL	3600
+@       IN      SOA     ns1.z.dn42. admin.z.dn42. (
+		2021080112  ; Serial
+		   3600     ; Refresh
+		     30     ; Retry
+		2419200     ; Expire
+		   3600 )   ; minimum
+
+; name servers - NS records
+@	IN      NS      ns1.z.dn42.
+@	IN      NS      ns2.z.dn42.
+
+250	IN	PTR	azimuth.s.z.dn42.
+254	IN	PTR	dfc.azimuth.s.z.dn42.
+*	IN	PTR	z.dn42.
