@@ -1,19 +1,23 @@
 zone "z.dn42" {
     type master;
     file "/etc/named/zones/db.z.dn42";
+    notify-source-v6 fd55:a814:708c::1;
 };
 
 zone "s.z.dn42" {
     type master;
     file "/etc/named/zones/db.s.z.dn42";
+    notify-source-v6 fd55:a814:708c::1;
 };
 
 zone "224/27.113.21.172.in-addr.arpa" {
     type master;
     file "/etc/named/zones/db.224-27.113.21.172.in-addr.arpa";
+    notify-source-v6 fd55:a814:708c::1;
 };
 
 zone "c.8.0.7.4.1.8.a.5.5.d.f.ip6.arpa" {
     type master;
     file "/etc/named/zones/db.c.8.0.7.4.1.8.a.5.5.d.f.ip6.arpa";
+    notify-source-v6 fd55:a814:708c::1;
 };
