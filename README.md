@@ -2,6 +2,8 @@
 
 My bind config for DN42
 
+Note: `z.dn42` accepts PR (Namely you can register a subdomain) but some names are reserved.
+
 ## Registry
 
 <https://explorer.burble.com/#/mntner/ZENITHAL-MNT>
