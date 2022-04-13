@@ -1,6 +1,6 @@
 $TTL	3600
 s.z.dn42.       IN      SOA ns1.z.dn42. admin.z.dn42. (
-	        2021080101  ; Serial
+		2022041401  ; Serial
 		   3600     ; Refresh
 		     30     ; Retry
 		2419200     ; Expire
@@ -17,7 +17,18 @@ zenith	IN	AAAA	fd55:a814:708c:3::1
 even	IN	AAAA	fd55:a814:708c:5::1
 centauri	IN	AAAA	fd55:a814:708c:9::1
 altair	IN	AAAA	fd55:a814:708c:a::1
+polaris	IN	AAAA	fd55:a814:708c:b::1
+kochab	IN	AAAA	fd55:a814:708c:c::1
 sanity	IN	AAAA	fd55:a814:708c:10::1
 sun	IN	AAAA	fd55:a814:708c:11::1
 capella	IN	AAAA	fd55:a814:708c:12::1
 deneb	IN	AAAA	fd55:a814:708c:14::1
+atlas	IN	AAAA	fd55:a814:708c:16::1
+spica	IN	AAAA	fd55:a814:708c:17::1
+pollux	IN	AAAA	fd55:a814:708c:18::1
+cabin	IN	AAAA	fd55:a814:708c:19::1
+fomalhaut	IN	AAAA	fd55:a814:708c:20::1
+rigel	IN	AAAA	fd55:a814:708c:21::1
+castor	IN	AAAA	fd55:a814:708c:22::1
+south	IN	AAAA	fd55:a814:708c:23::1
+procyon	IN	AAAA	fd55:a814:708c:24::1
