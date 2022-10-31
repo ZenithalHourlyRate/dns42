@@ -1,6 +1,6 @@
 $TTL	3600
 s.z.dn42.       IN      SOA ns1.z.dn42. admin.z.dn42. (
-		2022041401  ; Serial
+		2022103101  ; Serial
 		   3600     ; Refresh
 		     30     ; Retry
 		2419200     ; Expire
@@ -10,7 +10,7 @@ s.z.dn42.       IN      SOA ns1.z.dn42. admin.z.dn42. (
 @	IN      NS      ns1.z.dn42.
 @	IN      NS      ns2.z.dn42.
 
-lo.azimuth	IN	AAAA	fd55:a814:708c::1
+lo.rigel	IN	AAAA	fd55:a814:708c::1
 azimuth	IN	AAAA	fd55:a814:708c:1::1
 nadir	IN	AAAA	fd55:a814:708c:2::1
 zenith	IN	AAAA	fd55:a814:708c:3::1

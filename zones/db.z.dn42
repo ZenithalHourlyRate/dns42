@@ -1,6 +1,6 @@
 $TTL	3600
 z.dn42.       IN      SOA     ns1.z.dn42. admin.z.dn42. (
-		2021080103  ; Serial
+		2022103101  ; Serial
 		   3600     ; Refresh
 		     30     ; Retry
 		2419200     ; Expire
@@ -23,4 +23,4 @@ ns2	IN	AAAA	fd55:a814:708c:11::1
 
 @	IN	TXT	"https://github.com/ZenithalHourlyRate/dns42"
 
-mirror  IN	CNAME	lo.azimuth.s.z.dn42.
+mirror  IN	CNAME	lo.rigel.s.z.dn42.

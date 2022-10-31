@@ -1,6 +1,6 @@
 $TTL	3600
 @       IN      SOA     ns1.z.dn42. admin.z.dn42. (
-		2022041401  ; Serial
+		2022103101  ; Serial
 		   3600     ; Refresh
 		     30     ; Retry
 		2419200     ; Expire
@@ -12,7 +12,7 @@ $TTL	3600
 
 *	IN	PTR	z.dn42.
 
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 IN PTR lo.azimuth.s.z.dn42.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 IN PTR lo.rigel.s.z.dn42.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0 IN PTR azimuth.s.z.dn42.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.0 IN PTR nadir.s.z.dn42.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.0.0.0 IN PTR zenith.s.z.dn42.
